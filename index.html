@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zettogo</title>
+  <meta name="description" content="Zettogo storefront for fast, everyday finds and delivery-ready essentials.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="index.html" aria-label="Zettogo home"><img src="assets/zettogo-logo.png" alt="Zettogo"></a>
+      <div class="nav-links" aria-label="Primary links">
+        <a href="shop.html">Shop</a>
+        <a href="delivery.html">Delivery</a>
+        <a href="deals.html">Deals</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="nav-actions">
+        <a class="icon-button" href="search.html" aria-label="Search">
+          <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.4-4.4m1.4-5.1a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </a>
+        <a class="icon-button" href="cart.html" aria-label="Cart">
+          <svg width="21" height="21" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 8h15l-2 8H8.4L6.2 3H3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 21h.01M18 21h.01" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+        </a>
+        <a class="auth-link" href="login.html">Log in</a>
+        <a class="primary-button" href="create-account.html">Create account</a>
+        <a class="menu-button" href="menu.html" aria-label="Menu">
+          <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <div class="promo-strip">
+    <a class="promo-banner" href="deals.html" aria-label="Shop cute plush toy sale">
+      <img src="assets/promo-premium-banner.png" alt="Curated everyday finds, up to 50 percent off">
+    </a>
+  </div>
+
+  <main>
+    <section class="hero" aria-label="Zettogo hero">
+      <div class="hero-inner">
+        <div>
+          <p class="eyebrow">
+            <svg width="17" height="17" viewBox="0 0 24 24" aria-hidden="true"><path d="M13 2 4 14h7l-1 8 10-13h-7l1-7Z" fill="currentColor"/></svg>
+            Fast finds, ready to go
+          </p>
+          <h1>Zettogo</h1>
+          <p class="hero-copy">A quick-commerce storefront for daily essentials, local deals, and delivery-friendly picks that move as fast as your day does.</p>
+          <form class="search-panel" action="search.html" method="get">
+            <svg width="23" height="23" viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.4-4.4m1.4-5.1a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0Z" fill="none" stroke="#0877f2" stroke-width="2" stroke-linecap="round"/></svg>
+            <input type="search" name="q" aria-label="Search products" placeholder="Search groceries, tech, home goods">
+            <button class="primary-button" type="submit">Search</button>
+          </form>
+          <div class="hero-actions">
+            <a class="primary-button" href="shop.html">Browse categories</a>
+            <a class="secondary-button" href="delivery.html">See delivery</a>
+          </div>
+          <div class="quick-stats" aria-label="Service highlights">
+            <a class="stat" href="delivery.html"><strong>20 min</strong><span>featured local delivery window</span></a>
+            <a class="stat" href="shop.html"><strong>8k+</strong><span>daily essentials and deals</span></a>
+            <a class="stat" href="tracking.html"><strong>Live</strong><span>order tracking from cart to door</span></a>
+          </div>
+        </div>
+
+        <div class="brand-stage" aria-hidden="true">
+          <div class="speed-card">
+            <img src="assets/zettogo-logo.png" alt="">
+            <div class="brand-carousel" aria-hidden="true">
+              <div class="carousel-track">
+                <div class="tone-slide"><img src="assets/tone-delivery.png" alt=""></div>
+                <div class="tone-slide"><img src="assets/tone-market.png" alt=""></div>
+                <div class="tone-slide"><img src="assets/tone-deals.png" alt=""></div>
+                <div class="tone-slide"><img src="assets/tone-delivery.png" alt=""></div>
+                <div class="tone-slide"><img src="assets/tone-market.png" alt=""></div>
+                <div class="tone-slide"><img src="assets/tone-deals.png" alt=""></div>
+              </div>
+            </div>
+          </div>
+          <div class="route-card"><p class="card-title">On the way <span class="pill">Live</span></p><div class="route-line"></div></div>
+          <div class="basket-card">
+            <p class="card-title">Basket <span class="dot"></span></p>
+            <div class="mini-list">
+              <div class="mini-item"><span>Fresh box</span><strong>$24</strong></div>
+              <div class="mini-item"><span>Chargers</span><strong>$18</strong></div>
+              <div class="mini-item"><span>Home care</span><strong>$12</strong></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-heading">
+        <h2>Shop what is moving now</h2>
+        <p>Clean category paths, strong product signals, and fast cart actions for people who came here to get things done.</p>
+      </div>
+      <div class="category-grid">
+        <a class="category-card" href="essentials.html"><div class="category-icon">E</div><h3>Daily essentials</h3><p>Pantry, cleaning, wellness, and household basics for the everyday cart.</p></a>
+        <a class="category-card" href="deals.html"><div class="category-icon">%</div><h3>Top deals</h3><p>Clear savings on the products people reorder, replace, and grab fast.</p></a>
+        <a class="category-card" href="tech.html"><div class="category-icon">T</div><h3>Tech to go</h3><p>Cables, headphones, portable power, and accessories ready for pickup or delivery.</p></a>
+        <a class="category-card" href="market.html"><div class="category-icon">+</div><h3>Local market</h3><p>Nearby sellers, useful bundles, and seasonal picks in one fast-moving place.</p></a>
+      </div>
+    </section>
+
+    <section class="delivery-band">
+      <div class="delivery-inner">
+        <div>
+          <h2>Built for quick decisions and quicker checkout</h2>
+          <p>Zettogo keeps the shopping path compact: find the item, see availability, add to cart, then track every step without leaving the flow.</p>
+          <div class="button-row"><a class="primary-button" href="delivery.html">View delivery flow</a></div>
+        </div>
+        <div class="steps">
+          <a class="step" href="search.html"><strong>01</strong><h3>Find</h3><p>Search and category tiles prioritize products people need right now.</p></a>
+          <a class="step" href="cart.html"><strong>02</strong><h3>Pack</h3><p>Smart cart states make substitutions, totals, and delivery options easy to scan.</p></a>
+          <a class="step" href="tracking.html"><strong>03</strong><h3>Go</h3><p>Order updates stay simple, visible, and tied to the Zettogo speed identity.</p></a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-heading">
+        <h2>Today on Zettogo</h2>
+        <p>Featured rows can become real products later; the layout is already shaped for a live catalog.</p>
+      </div>
+      <div class="category-grid">
+        <a class="category-card" href="essentials.html"><h3>Fresh starter kit</h3><p>Produce, snacks, and drinks grouped for a simple first basket.</p></a>
+        <a class="category-card" href="tech.html"><h3>Desk reset</h3><p>Chargers, notebooks, wipes, and cables for the workday.</p></a>
+        <a class="category-card" href="essentials.html"><h3>Home in a hurry</h3><p>Cleaning, paper goods, and small repairs without a store run.</p></a>
+        <a class="category-card" href="deals.html"><h3>Weekend ready</h3><p>Fast bundles for gatherings, errands, and last-minute plans.</p></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <a href="index.html"><img src="assets/zettogo-logo.png" alt="Zettogo"></a>
+      <span>&copy; 2026 Zettogo. <a href="mailto:zettogo2026@gmail.com">zettogo2026@gmail.com</a></span>
+    </div>
+  </footer>
+</body>
+</html>

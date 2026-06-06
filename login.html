@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Log in | Zettogo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="index.html"><img src="assets/zettogo-logo.png" alt="Zettogo"></a>
+      <div class="nav-links"><a href="shop.html">Shop</a><a href="delivery.html">Delivery</a><a href="deals.html">Deals</a><a href="contact.html">Contact</a></div>
+      <div class="nav-actions">
+        <a class="icon-button" href="search.html" aria-label="Search"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.4-4.4m1.4-5.1a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></a>
+        <a class="icon-button" href="cart.html" aria-label="Cart"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 8h15l-2 8H8.4L6.2 3H3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 21h.01M18 21h.01" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg></a>
+        <a class="auth-link" href="login.html" aria-current="page">Log in</a>
+        <a class="primary-button" href="create-account.html">Create account</a>
+        <a class="menu-button" href="menu.html" aria-label="Menu"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="page-hero">
+      <div>
+        <p class="eyebrow">Account</p>
+        <h1>Log in to Zettogo.</h1>
+        <p class="page-copy">Access saved carts, faster checkout, delivery tracking, and local deal preferences.</p>
+        <div class="button-row"><a class="secondary-button" href="create-account.html">Create account</a><a class="secondary-button" href="contact.html">Need help?</a></div>
+      </div>
+      <form class="auth-card" action="shop.html" method="get">
+        <div class="field"><label for="login-email">Email</label><input id="login-email" name="email" type="email" placeholder="you@example.com" required></div>
+        <div class="field"><label for="login-password">Password</label><input id="login-password" name="password" type="password" placeholder="Password" required></div>
+        <button class="primary-button" type="submit">Log in</button>
+      </form>
+    </section>
+  </main>
+  <footer class="footer"><div class="footer-inner"><a href="index.html"><img src="assets/zettogo-logo.png" alt="Zettogo"></a><span>&copy; 2026 Zettogo. <a href="mailto:zettogo2026@gmail.com">zettogo2026@gmail.com</a></span></div></footer>
+</body>
+</html>
